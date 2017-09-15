@@ -2,7 +2,7 @@ def backwardsPrime(start, stop)
    ar = []
  ar1 =[]
  range=(start..stop).to_a
-dividers=(2..5000).to_a  #dividers=(2..(int2-1)).to_a is too much complexity for big numbers
+dividers=(2..5000).to_a  #dividers=(2..(int2-1)).to_a has too much complexity for big numbers
 
 for j in range
 ar= dividers.map{|i| j % i if j != i }
