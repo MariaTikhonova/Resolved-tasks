@@ -1,2 +1,2 @@
-# _Resolved-tasks
-Codewars and Hackerrank interesting resolved katas and tasks, .rb files only 
+# _Solved-tasks
+Codewars and Hackerrank interesting solved katas and tasks, .rb files only 
