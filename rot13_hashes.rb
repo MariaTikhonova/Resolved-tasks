@@ -13,7 +13,7 @@ def rot13(secret_messages)
    		 p l=i+13
        d.push(l)
    	end
-   	end-
+   	end
     h3=string_AZ.select{|k,v| k=d.index(v)}
   string_126 = Hash[(1..26).to_a.zip(("a".."z").to_a)]
    s=  d.map{|i| string_126[i]}.join
